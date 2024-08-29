@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <title> name </title>
- </head>
- <body>
-  <title> peembem </title>
- </body>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตัวอย่าง HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h1>
+    </header>
+    <main>
+        <section>
+            <h2>เกี่ยวกับเรา</h2>
+            <p>นี่คือลิงค์ <a href="https://www.example.com">ไปยังเว็บไซต์ตัวอย่าง</a></p>
+        </section>
+        <section>
+            <h2>ติดต่อเรา</h2>
+            <form action="#" method="post">
+                <label for="name">ชื่อ:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">ข้อความ:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">ส่ง</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 เว็บไซต์ตัวอย่าง. สงวนลิขสิทธิ์.</p>
+    </footer>
+</body>
 </html>
